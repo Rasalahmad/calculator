@@ -1,0 +1,58 @@
+<!doctype <html>
+    <head>
+    <title> My calculator </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "formula.js"> </script>
+    </head>
+    <body>
+     <h1> CALCULATOR </h1>
+     <h6 align = "center"> Developed by Rasal Ahmad </h6>
+     <div class = "card">  
+     <div class = "calc-header">  
+     <input id = "output" class="display"value=""id = "result">  </input>
+     
+     <div class = "calc-body">  
+     <div>
+      <input type = "button" class = "btn" onclick = "clr()" value = "C">  </input>
+      <input type = "button" class = "btn" onclick = "insert('+/-')" value = "+/-">  </input>
+      <input type = "button"class = "btn"onclick = "insert('%')" value = "%">  </input>
+      <input type = "button"class = "btn btn_style"onclick = "insert('/')" value = "/">  </input>
+      
+     </div>
+     <div>
+      <input type = "button"class = "btn" onclick = "insert('9')" value = "9">  </input>
+      <input type = "button" class = "btn"onclick = "insert('8')" value = "8">  </input>
+      <input type = "button" class = "btn"onclick = "insert('7')"value = "7">  </input>
+      <input type = "button" class = "btn btn_style"onclick = "insert('+')"value = "+">  </input>
+      
+     </div>
+     
+     <div>  
+      <input type = "button" class = "btn"onclick = "insert('6')"value = "6">  </input>
+      <input type = "button"class = "btn" onclick = "insert('5')"value = "5">  </input>
+      <input type = "button"class = "btn" onclick = "insert('4')"value = "4">  </input>
+      <input type = "button"class = "btn btn_style" onclick = "insert('-')"value = "-">  </input>
+      
+     </div>
+     
+     <div>  
+      <input type = "button"class = "btn" onclick = "insert('3')"value = "3">  </input>
+      <input type = "button"class = "btn"onclick = "insert('2')" value = "2">  </input>
+      <input type = "button"class = "btn" onclick = "insert('1')"value = "1">  </input>
+      <input type = "button"class = "btn btn_style"onclick = "insert('*')" value = "x">  </input>
+      
+     </div>
+     <div>  
+      <input type = "button" class = "btn"onclick = "insert('0')" value = "0">  </input>
+      <input type = "button"class = "btn"onclick = "insert('.')" value = ".">  </input>
+      <input type = "button"class = "btn"onclick = "clr()" value = "Del">  </input>
+      <input type = "button"class = "btn"style = "background-color:blue"onclick = "equal()" value = "=">  </input>
+      
+     </div>
+     
+     </div>
+     
+     </div>
+     
+    </body> 
+</html>

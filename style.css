@@ -22,7 +22,7 @@ background-color: black;
 font-size: 20px;
 font-weight : bold;
 color:white;
-border-radius : 10px;
+border-radius : 50px;
 }
 .btn_style{
 background-color :red;
@@ -33,7 +33,7 @@ background-color: 0 4px 8px 0;
 }
 .btn:hover{
 
-background-color: pink;
+background-color: #11999e ;
 }
 
 
@@ -45,6 +45,20 @@ text-align: right;
 font-weight: bold;
 padding: 0 2px;
 letter-spacing: 2px;
-background-color: yellow;
-border-radius: 10px;
+background-color: violet;
+border-radius: 30px;
 }
+.ras{
+color: red;
+
+
+}
+.bor{
+margin: 5px;
+border: solid tomato 10px;
+padding: 5px;
+
+}
+
+
+

@@ -5,8 +5,11 @@
     <script src = "formula.js"> </script>
     </head>
     <body>
+    <div class="bor">
      <h1> CALCULATOR </h1>
-     <h6 align = "center"> Developed by Rasal Ahmad </h6>
+     <div class="ras">
+        <p> <h6 align = "center"> Developed by &copy Rasal Ahmad </h6> </p>
+        </div>
      <div class = "card">  
      <div class = "calc-header">  
      <input id = "output" class="display"value=""id = "result">  </input>
@@ -19,6 +22,8 @@
       <input type = "button"class = "btn btn_style"onclick = "insert('/')" value = "/">  </input>
       
      </div>
+      
+               
      <div>
       <input type = "button"class = "btn" onclick = "insert('9')" value = "9">  </input>
       <input type = "button" class = "btn"onclick = "insert('8')" value = "8">  </input>
@@ -42,17 +47,15 @@
       <input type = "button"class = "btn btn_style"onclick = "insert('*')" value = "x">  </input>
       
      </div>
+     
      <div>  
       <input type = "button" class = "btn"onclick = "insert('0')" value = "0">  </input>
       <input type = "button"class = "btn"onclick = "insert('.')" value = ".">  </input>
-      <input type = "button"class = "btn"onclick = "clr()" value = "Del">  </input>
-      <input type = "button"class = "btn"style = "background-color:blue"onclick = "equal()" value = "=">  </input>
-      
+      <input type = "button"class = "btn"onclick = "del()" value = "Del">  </input>
+      <input type = "button"class = "btn"style = "background-color:green"onclick = "equal()" value = "=">  </input>            
+     </div>           
      </div>
-     
-     </div>
-     
-     </div>
-     
+    </div>
+    </div>
     </body> 
 </html>

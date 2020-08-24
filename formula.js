@@ -9,3 +9,12 @@ function equal(){
 function clr(){
   document.getElementById("output").value="";
 }
+function del(){
+  var prevalue=document.getElementById("output").value;
+  document.getElementById("output").value=prevalue.substr(0,prevalue.length-1);
+}
+function goback()
+{
+
+window.history.back();
+}
